@@ -1,8 +1,10 @@
-# Basic Python Tricks
-> Here are the **tips and tricks** fo the pyhton lovers who are in the beginner step. These are just basics to get started , 
-however every trick in these file can be tweaked to become a intermediate/advanced trick. 
----
+# Basic Python Tricks  <img align="left" border="3" src="https://github.com/Preetham777/Python_Tactics/blob/master/images/logo_python_official.png"> 
+> Here are the **tips and tricks** fo the pyhton lovers who are in the beginner step. These are just basics to get started,  
+however every trick in these file can be tweaked to become a intermediate/advanced trick. **(https://www.python.org/)**
 
+
+
+---
 ## 1. Zip 
 ```python
 # Helps in parallel iteration of lists/dicts/sets
