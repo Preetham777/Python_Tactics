@@ -79,4 +79,73 @@ b = 2
 c = 3
 d = 4
 ```
+|  :octocat: **TIP**  | :warning: Be careful about the order of the variables while receiving the values |
+| --- | --- |
+
+---
+## 5. Printing String(s)/list/tuples/set N number of times. 
+
+```python
+# python has a easy way to create strings which is repeated N number of times.
+
+a = '#' * 5
+b = [1] * 4
+c = (1,2) * 3
+
+# Output:
+a = "#####"
+b = [1, 1, 1, 1]
+c = (1, 2, 1, 2, 1, 2)
+```
+|  :octocat: **TIP**  | :warning: Doen't work on dict |
+| --- | --- |
+
+---
+## 6. Single string from a list/tuple/set/dict. 
+
+```python
+# python has <join> function which can help in creating a single string out of builtin-types.
+
+a = ["hello", "python", "world", "!"]
+b = ("hello", "python", "world", "!")
+c = {"hello" : "python", "world" : "!"}
+d = {"hello", "python", "world", "!"}
+
+print(" ".join(a))
+print(" X ".join(b))
+print("_X_".join(c))
+print("_zZZz_".join(d))
+
+# Output:
+
+hello python world !
+hello X python X world X !
+hello_X_world
+python_zZZz_!_zZZz_world_zZZz_hello
+
+```
+|  :octocat: **TIP**  | :warning: Elements order changes in set & dict. <br> :warning: In dict, by default only keys are considered. <br> :warning: In each input, the type of data should be string, else type cast it !!|
+| --- |:--- |
+
+---
+## 7. Sorting. 
+
+```python
+# python has 2 builtin functions to sort.
+
+a = sorted(["hello", "Python", "world", "!"])
+
+b = [5, 2, 3, 1, 4]
+b.sort()
+
+print(a)
+print(b)
+
+# Output:
+['!', 'Python', 'hello', 'world']
+[1, 2, 3, 4, 5]
+None
+```
+|  :octocat: **TIP**  | :gem: Python uses **Tim Sort** algorithm. <br> :warning: sort function is inplace on the object, so it returns **None**. |
+| --- |:--- |
 ---
